@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Fundamentals Demo</h1>
+    </header>
+    <main>
+        <section id="counter-section">
+            <h2>Counter (DOM + Conditionals)</h2>
+            <p>Current Count: <span id="count">0</span></p>
+            <button id="increment-btn">Increment</button>
+            <button id="reset-btn">Reset</button>
+        </section>
+
+        <section id="list-section">
+            <h2>Dynamic List Generator (Loops + Functions)</h2>
+            <input type="number" id="list-count" placeholder="Enter number of items" min="1" max="10">
+            <button id="generate-list-btn">Generate List</button>
+            <ul id="dynamic-list"></ul>
+        </section>
+
+        <section id="toggle-section">
+            <h2>Toggle Content (DOM Manipulation)</h2>
+            <button id="toggle-btn">Toggle Content</button>
+            <div id="toggle-content" class="hidden">
+                <p>This content can be toggled on and off!</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
